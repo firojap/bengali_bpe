@@ -9,13 +9,13 @@ long_description = (this_directory / "README.md").read_text(encoding="utf-8")
 
 setup(
     name="bengali_bpe",
-    version="0.1.2",  # ⬅️ bump version number (PyPI doesn't allow re-upload of same version)
+    version="0.1.7",  # bump version number
     description="A Byte Pair Encoding (BPE) library for the Bengali language.",
     long_description=long_description,
-    long_description_content_type="text/markdown",  # ⬅️ important for Markdown rendering
+    long_description_content_type="text/markdown",  # important for Markdown rendering
     author="Firoj Ahmmed Patwary",
-    author_email="your.email@example.com",  # optional
-    url="https://github.com/yourusername/bengali_bpe",  # or your site
+    author_email="firoj.stat@gmail.com",  # optional
+    url="https://github.com/firojap/bengali_bpe",  # or your site
     packages=find_packages(),
     install_requires=[],
     classifiers=[
