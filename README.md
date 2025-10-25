@@ -183,16 +183,17 @@ Decoded: আমি বাংলা ভালোবাসি
 ## Project Structure
 
 ```
-bengali_bpe/
-├── bengali_bpe/
-│   ├── __init__.py
-│   ├── encoder.py
-│   └── utils.py
-├── tests/
-│   └── test_encoder.py
-├── README.md
-├── setup.py
-└── LICENSE
+bengali-bpe/
+├─ README.md
+├─ LICENSE
+├─ pyproject.toml
+├─ src/
+│  └─ bengali_bpe/
+│     ├─ __init__.py
+│     ├─ encoder.py
+│     └─ utils.py
+└─ tests/
+   └─ test_import.py
 ```
 ---
 ## Developer
